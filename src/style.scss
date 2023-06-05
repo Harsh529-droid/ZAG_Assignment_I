@@ -1,0 +1,301 @@
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .HomeScreen {
+        // margin-left: ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 375px;
+        height: 812px;
+
+        .HomeNav {
+            display: flex;
+            margin : 15px;
+            gap : 270px;
+
+            img{
+                cursor: pointer;
+                height : 35px;
+                width : 35px;
+            }
+        }
+
+        .Welcome{
+
+        }
+        .SearchBar {
+            margin : 15px;
+            display: flex;
+            gap : 15px;
+            img{
+                cursor: pointer;
+                height: 50px;
+                width : 50px;
+            }
+            input{
+                border-radius: 25px;
+                height: 50px;
+                width : 250px;
+            }
+        }
+
+        .Features{
+            margin : 15px;
+            img{
+            height : 160px;
+
+            }
+        }
+
+        .NewArrivals {
+            
+            .arrivalHead {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin : 15px;
+            }
+
+            .ArrivalImg{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin : 15px;
+                
+                img{
+                    border-radius: 10px;
+                    height : 200px;
+                }
+            }
+        }
+        
+        .Footer{
+            margin : 15px;
+            display: flex;
+            align-items: center;
+            gap: 87px;
+            img {
+                height: 16.34px;
+                width: 16px;
+                cursor: pointer;
+                :hover{
+                    background-color: #1342dd;
+                }
+            }
+        }
+       
+    }
+}
+
+.mainP{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    width: auto;
+    height: auto;
+   
+    .Product{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 375px;
+        height: auto;
+        flex-direction: column;
+        
+        .Up{
+         
+          width: 375px;
+          height: 420px;
+          background: url(./assets/model.png);
+          display: relative;
+          
+
+          .topIcons{
+             width: 375px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             position: relative;
+             top: 35px;
+             gap: 250px;
+             img{
+                height: 30px;
+                width:30px;
+                cursor: pointer;
+             }
+          }
+            
+            
+        }
+
+        .Down{
+            border-radius: 15px;
+            border: none;
+            .Rabbit{
+
+                .div1{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 130px;
+                    border: none;
+                    
+                    .span1{
+                        border-radius: 15px;    
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        button{
+                            border: none;
+                            height: 30px;
+                            cursor: pointer;
+                        }
+                        span{
+                            height: 30px;
+                        }
+                    }
+                }
+
+                .volo{
+                    padding: 10px;
+                }
+                
+                .div2{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 76px;
+                  
+                }
+            }
+
+            .abv{
+                padding-left: 10px;
+            }
+            .Size{
+             
+                padding: 10px;;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                margin:10px;
+
+                button{
+                    height:40px;
+                    width: 40px;
+                    border-radius: 20px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: 800;
+                    cursor: pointer;
+                }
+            }
+            .Description{
+             
+                padding: 10px;
+            }
+
+            .Price{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 86px;
+
+                .totalPrice{
+                    
+                    h2{
+                        margin: 0px;
+                    }
+                    span{
+                        color : rgb(208, 187, 187);
+                    }
+                }
+
+                .buy-now-button {
+                    width: 200px;
+                    height: 50px;
+                    border-radius: 25px;
+                    display: inline-block;
+                    padding: 10px 20px;
+                    background-color: black;
+                    color: white;
+                    font-size: 16px;
+                    cursor: pointer;
+                  }
+                  
+            }
+        }
+    }
+}
+
+.big{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .credit-card-payment {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border-radius: 5px;
+      }
+      
+      .credit-card-payment h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .credit-card-payment form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .credit-card-payment .form-group {
+        margin-bottom: 15px;
+      }
+      
+      .credit-card-payment label {
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      
+      .credit-card-payment input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      .credit-card-payment button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .credit-card-payment button:hover {
+        background-color: #0056b3;
+      }
+      
+      .credit-card-payment button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+}
+  
+  
+ 
